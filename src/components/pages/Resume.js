@@ -1,6 +1,6 @@
 import React from 'react';
 // may have to import my resume file here, so we can have it as part of the download tag below
-// import Resume from '../../../src/JackDoranResume.pdf'
+import Resume from '../../../src/JackDoranResume2021.pdf'
 
 export default function Resume() {
     return (
@@ -10,9 +10,9 @@ export default function Resume() {
                 This is a miniature, web version of my resume highlighting coding-specific proficiences. You can click the download link to download a more formal PDF copy.
             </p>
             <p>
-                {/* <a href={Resume} download> */}
+                <a href={Resume} download>
                     Click here to download a PDF of my resume.
-                {/* </a> */}
+                </a>
             </p>
             <h3>Front End Proficiencies</h3>
             <ul className="resume">
