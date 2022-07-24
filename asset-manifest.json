@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.4e39db68.css",
-    "main.js": "/my-portfolio-react/static/js/main.848e37ac.js",
+    "main.js": "/my-portfolio-react/static/js/main.fb949a7c.js",
     "static/js/787.9077b1c8.chunk.js": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js",
     "static/media/adventure-adviser-screenshot.png": "/my-portfolio-react/static/media/adventure-adviser-screenshot.ff40691dfeda50dfe07d.png",
     "static/media/employee-tracker-screenshot.png": "/my-portfolio-react/static/media/employee-tracker-screenshot.ba852324e87321720c3e.png",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/my-portfolio-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-portfolio-react/index.html",
     "main.4e39db68.css.map": "/my-portfolio-react/static/css/main.4e39db68.css.map",
-    "main.848e37ac.js.map": "/my-portfolio-react/static/js/main.848e37ac.js.map",
+    "main.fb949a7c.js.map": "/my-portfolio-react/static/js/main.fb949a7c.js.map",
     "787.9077b1c8.chunk.js.map": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e39db68.css",
-    "static/js/main.848e37ac.js"
+    "static/js/main.fb949a7c.js"
   ]
 }
