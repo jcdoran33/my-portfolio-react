@@ -36,3 +36,188 @@
     transform: rotate(360deg);
   }
 }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+/* TO manage size of logo images */
+.logos {
+  height: 50px;
+  width: 50px;
+  
+}
+
+.logos:hover {
+  border: solid black 2px;
+  border-style: inset;
+  border-radius: 5px;
+  box-shadow: 10px 10px lightblue;
+}
+
+/* add rounded edges to my bio picture */
+#biopic {
+  border-radius: 10%;
+}
+
+/*  card margin */
+/* .card {
+  margin: 5px
+} */
+
+
+/* demo ing flashing text to point to social links in footer */
+/* media query to only apply the blinking and the arrows at all if screen is => 720 px, for small screens no arrow needed */
+@media (min-width: 720px) {
+  .blink {
+    animation: blinker 1.5s step-start infinite;
+    display: inline;
+  }
+  /* if you hover over the blinking text, it blinks rapidly */
+  .blink:hover {
+    animation: blinker 0.5s step-start infinite;
+    display: inline;
+  }
+  .blink-container:hover{
+    animation: blinker 0.5s step-start infinite;
+    display: inline;
+}
+}
+
+
+/* if screen is 719px or below, we hide the blinking arrows */
+@media (max-width: 719px) {
+  .blink{ 
+    display: none
+  }
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* footer height increase */
+/* in media query section, have height double */
+footer {
+  min-height: 75px
+}
+@media (max-width: 768px) {
+  footer {
+    min-height: 150px
+  }
+}
+
+
+/* adjust card images in portfolio - added border radius */
+.card-img-top {
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  border: solid grey 1px
+}
+/* and add hover effects */
+.card-img-top:hover {
+  border: solid grey 3px;
+  box-shadow: 3px 3px lightgrey;
+}
+
+
+/*  responsive text on the resume page */
+
+/* only display responsive text if the user is on a computer (or specificaly, not using a touchscreen - works most fo the time) */
+@media (pointer:none), (pointer:coarse) {
+  #responsivetext {
+    display: none;
+  }
+}
+
+/* this handles below 540px */
+#responsivetext {
+  color: red;
+  font-size: smaller;
+}
+/* this one covers between 540-720 px */
+@media (min-width: 540px) {
+  #responsivetext {
+    color: green;
+    font-size: small;
+  }
+}
+/*  this one covers 720px-960px */
+@media (min-width: 720px) {
+  #responsivetext {
+    color: black;
+    font-size:medium;
+  }
+}
+
+/* this one covers 960-1140px */
+@media (min-width: 960px) {
+  #responsivetext {
+    color: blue;
+    font-size: large;
+  }
+}
+
+/* this one covers above 1140px */
+@media (min-width: 1140px) {
+  #responsivetext {
+    color: orange;
+    font-size: larger;
+  }
+}
+
+/* adjust hover properties for nav bar items */
+.nav-item:hover {
+  box-shadow: 1px 2px 1px 1px lightblue !important
+  /* ^ x-axis, y-axis, blur-radius, spread-radius, color */
+}
+
+/* add hover effects on the "Responsive Design" on resume page */
+#res-design-li:hover{
+  font-weight: bold;
+  animation: shake 0.8s infinite;
+}
+
+@keyframes shake {
+  0%{
+    transform: translateX(0)
+  }
+  25%{
+    transform: translateX(25px);
+  }
+    
+  50%{
+    transform: translateX(-25px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+/* adds hover effect for all text bullet point on resume page */
+.resume > li:hover {
+  font-weight: bold;
+}
+
+/* Adds responsive shadow to the cards on portfolio page */
+.card:hover {
+  box-shadow: 2px 3px 2px 2px lightblue !important;
+  /* ^ x-axis, y-axis, blur-radius, spread-radius, color */
+  border: solid black 1px;
+}
