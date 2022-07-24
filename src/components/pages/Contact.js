@@ -22,6 +22,7 @@ export default function Contact() {
             <p>
                 <a href="https://www.linkedin.com/in/j-doran/">LinkedIn</a>
             </p>
+            <br/><br/><br/><br/><br/><br/>
         </div>
     );
 }

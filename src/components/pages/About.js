@@ -19,6 +19,7 @@ export default function About() {
                     <p>Outside of coding, I love enjoying, playing, and creating music, and spending time with my rescue dog, Kaya.</p>
                 </div>
             </div>
+            <br/><br/><br/><br/><br/><br/>
         </div>
     );
 }
