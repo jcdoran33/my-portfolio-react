@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.4e39db68.css",
-    "main.js": "/my-portfolio-react/static/js/main.dd7402e8.js",
+    "main.js": "/my-portfolio-react/static/js/main.a89084e6.js",
     "static/js/787.9077b1c8.chunk.js": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js",
     "static/media/adventure-adviser-screenshot.png": "/my-portfolio-react/static/media/adventure-adviser-screenshot.ff40691dfeda50dfe07d.png",
+    "static/media/excelsior-screenshot.png": "/my-portfolio-react/static/media/excelsior-screenshot.e38f6dc69f2171228c11.png",
     "static/media/employee-tracker-screenshot.png": "/my-portfolio-react/static/media/employee-tracker-screenshot.ba852324e87321720c3e.png",
     "static/media/ecommerce-screenshot.png": "/my-portfolio-react/static/media/ecommerce-screenshot.cf2f3fb7223d224e7052.png",
     "static/media/weather-dash-screenshot.png": "/my-portfolio-react/static/media/weather-dash-screenshot.3de435f2f80f028ac0f8.png",
@@ -13,11 +14,11 @@
     "static/media/bio_pic.jpg": "/my-portfolio-react/static/media/bio_pic.109455f49571230c0568.jpg",
     "index.html": "/my-portfolio-react/index.html",
     "main.4e39db68.css.map": "/my-portfolio-react/static/css/main.4e39db68.css.map",
-    "main.dd7402e8.js.map": "/my-portfolio-react/static/js/main.dd7402e8.js.map",
+    "main.a89084e6.js.map": "/my-portfolio-react/static/js/main.a89084e6.js.map",
     "787.9077b1c8.chunk.js.map": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e39db68.css",
-    "static/js/main.dd7402e8.js"
+    "static/js/main.a89084e6.js"
   ]
 }
