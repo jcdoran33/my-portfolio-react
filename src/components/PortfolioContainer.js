@@ -14,6 +14,7 @@ import EmpTrackerScreenshot from '../../src/images/employee-tracker-screenshot.p
 import NoteTakerScreenshot from '../../src/images/note-taker-screenshot.png';
 import ReadMeGeneratorScreenshot from '../../src/images/readme-generator-screenshot.png';
 import WeatherDashboardScreenshot from '../../src/images/weather-dash-screenshot.png';
+import ExcelsiorScreenshot from '../../src/images/excelsior-screenshot.png';
 
 //  test - laying out object with project data
 const projectObj = [
@@ -27,6 +28,14 @@ const projectObj = [
   },
   {
     id: 2,
+    projectName: "Excelsior Emporium",
+    projectImageLink: ExcelsiorScreenshot,
+    projectDescription: "A mock ecommerce site for the Marvel universe. MERN-stack application using Apollo/GraphQL, bcrypt and json webtoken packages, and Stripe payment API",
+    projectDeployedLink: "https://excelsior-emporium-jcd.herokuapp.com/",
+    projectGithubRepo: "https://github.com/jcdoran33/Excelsior-Emporium"
+  },
+  {
+    id: 3,
     projectName: "Ecommerce Back End",
     projectImageLink: EcommerceScreenshot,
     projectDescription: "A simplified example of an ecommerce back end using Express with MySql/Sequelize. User can create, read, update, and delete products, product categories, and product tags.",
@@ -34,7 +43,7 @@ const projectObj = [
     projectGithubRepo: "https://github.com/jcdoran33/Ecommerce-Back-End"
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Employee Tracker",
     projectImageLink: EmpTrackerScreenshot,
     projectDescription: "Back end CLI application that allows a user to create, read update, and delete from a database of employee information. Uses Node, Express, MySql, and the Inquirer npm package.",
@@ -42,7 +51,7 @@ const projectObj = [
     projectGithubRepo: "https://github.com/jcdoran33/Employee-Tracker"
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Note Taker",
     projectImageLink: NoteTakerScreenshot,
     projectDescription: "A simple note taking application that will allow a user to create text notes, save them, and edit them. The note data persists, so if a user navigates away from the page and returns later, the notes from the previous session will be saved.",
@@ -50,7 +59,7 @@ const projectObj = [
     projectGithubRepo: "https://github.com/jcdoran33/Note-Taker"
   },
   {
-    id: 5,
+    id: 6,
     projectName: "ReadMe Generator",
     projectImageLink: ReadMeGeneratorScreenshot,
     projectDescription: "This is a CLI application that will automatically generate a ReadMe file for the end user, based on the user's supplied criteria. The application uses the Inquirer package to prompt the user for information about their project, then generates a ReadMe.MD file.",
@@ -58,7 +67,7 @@ const projectObj = [
     projectGithubRepo: "https://github.com/jcdoran33/ReadMe-Generator"
   },
   {
-    id: 6,
+    id: 7,
     projectName: "Weather Dashboard",
     projectImageLink: WeatherDashboardScreenshot,
     projectDescription: "This is a front end application that displays current and 5-day weather forecast for a given geographical area based on the user's input. It utilizes the OpenWeather API for current weather data, and the Google Maps API for geocoding.",
