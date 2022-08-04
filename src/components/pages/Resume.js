@@ -37,7 +37,7 @@ export default function Resume() {
             </ul>
             <h3>Collaborative Proficiencies</h3>
             <ul className="resume">
-                <li>Git / Github</li>
+                <li>Git / Github / Github Pages</li>
                 <li>Heroku</li>
             </ul>
             {/* added some breaks so not cut off by footer */}
