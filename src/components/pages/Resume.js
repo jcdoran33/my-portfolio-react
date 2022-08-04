@@ -26,10 +26,10 @@ export default function Resume() {
             </ul>
             <h3>Back End Proficiencies</h3>
             <ul className="resume">
-                <li><strong>M</strong>ongoDB / MongoDB Atlas Cloud and Mongoose</li>
-                <li><strong>E</strong>xpress</li>
-                <li><strong>R</strong>eact (used to create this portfolio site!)</li>
-                <li><strong>N</strong>ode.js</li>
+                <li><strong id="mern">M</strong>ongoDB / MongoDB Atlas Cloud and Mongoose</li>
+                <li><strong id="mern">E</strong>xpress</li>
+                <li><strong id="mern">R</strong>eact (used to create this portfolio site!)</li>
+                <li><strong id="mern">N</strong>ode.js</li>
                 <li>Progressive Web Applications</li>
                 <li>MySQL / Sequelize</li>
                 <li>MVC Design Pattern</li>
