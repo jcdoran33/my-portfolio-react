@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.4e39db68.css",
-    "main.js": "/my-portfolio-react/static/js/main.a89084e6.js",
+    "main.css": "/my-portfolio-react/static/css/main.daf319ba.css",
+    "main.js": "/my-portfolio-react/static/js/main.8fc55d59.js",
     "static/js/787.9077b1c8.chunk.js": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js",
     "static/media/adventure-adviser-screenshot.png": "/my-portfolio-react/static/media/adventure-adviser-screenshot.ff40691dfeda50dfe07d.png",
     "static/media/excelsior-screenshot.png": "/my-portfolio-react/static/media/excelsior-screenshot.e38f6dc69f2171228c11.png",
@@ -13,12 +13,12 @@
     "static/media/JackDoranResume2021.pdf": "/my-portfolio-react/static/media/JackDoranResume2021.f7c59ec9424e89487132.pdf",
     "static/media/bio_pic.jpg": "/my-portfolio-react/static/media/bio_pic.109455f49571230c0568.jpg",
     "index.html": "/my-portfolio-react/index.html",
-    "main.4e39db68.css.map": "/my-portfolio-react/static/css/main.4e39db68.css.map",
-    "main.a89084e6.js.map": "/my-portfolio-react/static/js/main.a89084e6.js.map",
+    "main.daf319ba.css.map": "/my-portfolio-react/static/css/main.daf319ba.css.map",
+    "main.8fc55d59.js.map": "/my-portfolio-react/static/js/main.8fc55d59.js.map",
     "787.9077b1c8.chunk.js.map": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e39db68.css",
-    "static/js/main.a89084e6.js"
+    "static/css/main.daf319ba.css",
+    "static/js/main.8fc55d59.js"
   ]
 }
