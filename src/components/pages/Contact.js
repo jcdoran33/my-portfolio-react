@@ -9,6 +9,9 @@ export default function Contact() {
             <p>
                 Please use the form on this page to get in contact with me.
             </p>
+            <p>
+                <small><i>This form uses the <a href="https://www.emailjs.com/" target="_blank" rel="noreferrer">EmailJS package</a>, and will automatically send me an email with the contents of the form. I will get back to you ASAP, thanks!</i></small>
+            </p>
             {/* BEGIN form content */}
             <Form />
             {/* END form content*/}
