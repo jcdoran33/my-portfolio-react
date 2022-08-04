@@ -234,3 +234,19 @@ footer {
   50% { transform: rotate(20deg); }
   100% { transform: rotate(0deg); }
 }
+
+
+/* adjusting alert success message form form submission */
+.alert {
+  display: none;
+  font-size: small;
+  /* animation: autoHide 3s ; commented out until can fix animation */
+}
+@keyframes autoHide {
+  0% {
+    opacity: 1;
+  }
+   100% {
+    opacity: 0;
+   }
+}
