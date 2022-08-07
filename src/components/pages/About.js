@@ -15,8 +15,8 @@ export default function About() {
                     <h3>Welcome to my portfolio!</h3>
                     <br/>
                     <p>My name is Jack and I am a full stack web developer.</p>
-                    <p>I recently (Summer 2022) made a career pivot to focus on programming and development. I love learning and mastering new concepts, so, while difficult, learning in a more structured way about coding over the past few months has been very rewarding. I’m looking forward to see where this will take my in a professional capacity, but even more so looking forward to how I can employ these new skills for fun in my personal life.</p>
-                    <p>Outside of coding, I love enjoying, playing, and creating music, and spending time with my rescue dog, Kaya.</p>
+                    <p>I recently (Summer 2022) made a pivot to focus more on programming and development. I love learning and mastering new concepts and technologies, so, while challenging, learning in a more structured way about coding over the past few months has been very rewarding. I’m looking forward to see where this will take my in a professional capacity, but even more so looking forward to how I can employ these new skills for fun in my personal life.</p>
+                    <p>Outside of coding, I love listening to, playing, and creating music, and spending time with my rescue dog, Kaya.</p>
                 </div>
             </div>
             <br/><br/><br/><br/><br/><br/>
