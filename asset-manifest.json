@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.fa849d46.css",
-    "main.js": "/my-portfolio-react/static/js/main.475506a9.js",
+    "main.js": "/my-portfolio-react/static/js/main.1bfc9b23.js",
     "static/js/787.9077b1c8.chunk.js": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js",
     "static/media/adventure-adviser-screenshot.png": "/my-portfolio-react/static/media/adventure-adviser-screenshot.ff40691dfeda50dfe07d.png",
     "static/media/excelsior-screenshot.png": "/my-portfolio-react/static/media/excelsior-screenshot.e38f6dc69f2171228c11.png",
@@ -9,16 +9,16 @@
     "static/media/ecommerce-screenshot.png": "/my-portfolio-react/static/media/ecommerce-screenshot.cf2f3fb7223d224e7052.png",
     "static/media/weather-dash-screenshot.png": "/my-portfolio-react/static/media/weather-dash-screenshot.3de435f2f80f028ac0f8.png",
     "static/media/readme-generator-screenshot.png": "/my-portfolio-react/static/media/readme-generator-screenshot.cc82a65b4ff2e50d543f.png",
+    "static/media/JackDoranResume2022.pdf": "/my-portfolio-react/static/media/JackDoranResume2022.e38d2da5df0a4df9883e.pdf",
     "static/media/note-taker-screenshot.png": "/my-portfolio-react/static/media/note-taker-screenshot.01ef0c0354b92aa0d792.png",
-    "static/media/JackDoranResume2021.pdf": "/my-portfolio-react/static/media/JackDoranResume2021.f7c59ec9424e89487132.pdf",
     "static/media/bio_pic.jpg": "/my-portfolio-react/static/media/bio_pic.109455f49571230c0568.jpg",
     "index.html": "/my-portfolio-react/index.html",
     "main.fa849d46.css.map": "/my-portfolio-react/static/css/main.fa849d46.css.map",
-    "main.475506a9.js.map": "/my-portfolio-react/static/js/main.475506a9.js.map",
+    "main.1bfc9b23.js.map": "/my-portfolio-react/static/js/main.1bfc9b23.js.map",
     "787.9077b1c8.chunk.js.map": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa849d46.css",
-    "static/js/main.475506a9.js"
+    "static/js/main.1bfc9b23.js"
   ]
 }
