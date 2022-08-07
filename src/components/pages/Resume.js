@@ -1,6 +1,6 @@
 import React from 'react';
 // may have to import my resume file here, so we can have it as part of the download tag below
-import ResumePDF from '../../../src/JackDoranResume2021.pdf'
+import ResumePDF from '../../../src/JackDoranResume2022.pdf'
 
 export default function Resume() {
     return (
