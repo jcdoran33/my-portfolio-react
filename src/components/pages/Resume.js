@@ -7,11 +7,11 @@ export default function Resume() {
         <div>
             <h1>Resume</h1>
             <p>
-                This is a miniature, web version of my resume highlighting coding-specific proficiences. You can click the download link to download a more formal PDF copy.
+                This is a miniature, web version of my resume highlighting coding-specific proficiences. You can click the download link below to download a more expansive PDF copy.
             </p>
             <p>
                 <a href={ResumePDF} download>
-                    Click here to download a PDF of my resume.
+                    Click here to download a PDF of my full resume.
                 </a>
             </p>
             <h3>Front End Proficiencies</h3>
