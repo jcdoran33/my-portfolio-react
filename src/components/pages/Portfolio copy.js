@@ -24,7 +24,7 @@ export default function Portfolio(props) {
                     </a>
                     <h5 className="card-title">{project.projectName}</h5>
                     <p className="card-text">{project.projectDescription}</p>
-                    <p className="card-text"><a href={project.projectGithubRepo}>Github Repository</a></p>
+                    <p className="card-text"><a href={project.projectGithubRepo} target="_blank" rel="noreferrer">Github Repository</a></p>
                 </div>
                 ))}
 
