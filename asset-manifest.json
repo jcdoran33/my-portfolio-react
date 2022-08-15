@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.fa849d46.css",
-    "main.js": "/my-portfolio-react/static/js/main.c2a00c6b.js",
+    "main.js": "/my-portfolio-react/static/js/main.7d171e0a.js",
     "static/js/787.9077b1c8.chunk.js": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js",
     "static/media/adventure-adviser-screenshot.png": "/my-portfolio-react/static/media/adventure-adviser-screenshot.ff40691dfeda50dfe07d.png",
     "static/media/excelsior-screenshot.png": "/my-portfolio-react/static/media/excelsior-screenshot.e38f6dc69f2171228c11.png",
@@ -15,11 +15,11 @@
     "static/media/bio_pic.jpg": "/my-portfolio-react/static/media/bio_pic.109455f49571230c0568.jpg",
     "index.html": "/my-portfolio-react/index.html",
     "main.fa849d46.css.map": "/my-portfolio-react/static/css/main.fa849d46.css.map",
-    "main.c2a00c6b.js.map": "/my-portfolio-react/static/js/main.c2a00c6b.js.map",
+    "main.7d171e0a.js.map": "/my-portfolio-react/static/js/main.7d171e0a.js.map",
     "787.9077b1c8.chunk.js.map": "/my-portfolio-react/static/js/787.9077b1c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa849d46.css",
-    "static/js/main.c2a00c6b.js"
+    "static/js/main.7d171e0a.js"
   ]
 }
