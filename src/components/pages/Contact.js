@@ -20,9 +20,6 @@ export default function Contact() {
                 Email: <a href="mailito:jcdoran33@gmail.com?subject=Portfolio Contact Page">jcdoran33@gmail.com</a>
             </p>
             <p>
-                Phone: (732)555-5555
-            </p>
-            <p>
                 <a href="https://www.linkedin.com/in/j-doran/">LinkedIn</a>
             </p>
             <br/><br/><br/><br/><br/><br/>
