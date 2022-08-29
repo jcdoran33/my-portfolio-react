@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 // import Home from './pages/Home'; //opting to not use a home page, profile will default ot About me as the home page for now
-import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Footer from './Footer';
-import PortfolioTest from './pages/Portfolio copy';
+import Portfolio from './pages/Portfolio';
 // screenshot imports
 import AdvAdvScreenshot from '../../src/images/adventure-adviser-screenshot.png';
 import EcommerceScreenshot from '../../src/images/ecommerce-screenshot.png';
@@ -23,7 +22,7 @@ const projectObj = [
     id: 1,
     projectName: "placeKaya.com",
     projectImageLink: PlaceKayaScreenshot,
-    projectDescription: "A custom-built placeholder image service featuring images of my dog, Kaya. Cloudinary and Netlify used to host and transform images",
+    projectDescription: "A custom-built placeholder image service featuring images of my dog, Kaya. Cloudinary and Netlify used to host and transform images.",
     projectDeployedLink: "https://www.placekaya.com",
     projectGithubRepo: "https://github.com/jcdoran33/PlaceKaya"
   },
@@ -31,7 +30,7 @@ const projectObj = [
     id: 2,
     projectName: "Adventure Adviser",
     projectImageLink: AdvAdvScreenshot,
-    projectDescription: "Allows a user to search and buy tickets for events in a given geographical area. Utilizes Google Maps, OpenWeather, and Ticketmaster APIs",
+    projectDescription: "Allows a user to search and buy tickets for events in a given geographical area. Utilizes Google Maps, OpenWeather, and Ticketmaster APIs.",
     projectDeployedLink: "https://jcdoran33.github.io/Adventure-Adviser/",
     projectGithubRepo: "https://github.com/jcdoran33/Adventure-Adviser"
   },
@@ -39,7 +38,7 @@ const projectObj = [
     id: 3,
     projectName: "Excelsior Emporium",
     projectImageLink: ExcelsiorScreenshot,
-    projectDescription: "A mock ecommerce site for the Marvel universe. MERN-stack application using Apollo/GraphQL, bcrypt and json webtoken packages, and Stripe payment API",
+    projectDescription: "A mock ecommerce site for the Marvel universe. MERN-stack application using Apollo/GraphQL, bcrypt and json webtoken packages, and Stripe payment API.",
     projectDeployedLink: "https://excelsior-emporium-jcd.herokuapp.com/",
     projectGithubRepo: "https://github.com/jcdoran33/Excelsior-Emporium"
   },
@@ -95,7 +94,7 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <PortfolioTest projects={projectObj}/>;
+      return <Portfolio projects={projectObj}/>;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
