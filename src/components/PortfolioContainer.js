@@ -23,7 +23,7 @@ const projectObj = [
     id: 1,
     projectName: "placeKaya.com",
     projectImageLink: PlaceKayaScreenshot,
-    projectDescription: "A custom-built placeholder image service featuring images of my dog, Kaya.",
+    projectDescription: "A custom-built placeholder image service featuring images of my dog, Kaya. Cloudinary and Netlify used to host and transform images",
     projectDeployedLink: "https://www.placekaya.com",
     projectGithubRepo: "https://github.com/jcdoran33/PlaceKaya"
   },

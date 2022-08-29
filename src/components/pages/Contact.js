@@ -17,7 +17,7 @@ export default function Contact() {
             {/* END form content*/}
             <br/>
             <p>
-                Email: <a href="mailito:jcdoran33@gmail.com?subject=Portfolio Contact Page">jcdoran33@gmail.com</a>
+                <a href="mailito:jcdoran33@gmail.com?subject=Portfolio Contact Page">jcdoran33@gmail.com</a>
             </p>
             <p>
                 <a href="https://www.linkedin.com/in/j-doran/">LinkedIn</a>
