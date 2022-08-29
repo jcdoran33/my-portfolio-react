@@ -9,7 +9,7 @@ export default function About() {
             {/* Have 1 row contain everything (2 columns). Picture on left a few cols, then all bio text in second column */}
             <div className="row">
                 <div className="col-md">
-                    <img src={bioPic} id="biopic" alt='Bio Picture' className="shadow-lg"/>
+                    <img src={bioPic} id="biopic" alt='Bio Headshot' className="shadow-lg"/>
                 </div>
                 <div className="col-md">
                     {/* <h3>Welcome to my portfolio!</h3> */}

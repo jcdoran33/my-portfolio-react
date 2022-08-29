@@ -20,7 +20,7 @@ export default function Portfolio(props) {
                 {props.projects.map(project => (
                     <div className="card col-md-5 col-sm-12 p-2 m-2">
                     <a href={project.projectDeployedLink} target="_blank" rel="noreferrer">
-                        <img className="card-img-top" src={project.projectImageLink} alt={project.projectImageLink} />
+                        <img className="card-img-top" src={project.projectImageLink} alt={project.projectImageAlt} />
                     </a>
                     <h5 className="card-title">{project.projectName}</h5>
                     <p className="card-text">{project.projectDescription}</p>
