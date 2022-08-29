@@ -1,6 +1,7 @@
 import React from 'react';
 // may have to import my resume file here, so we can have it as part of the download tag below
 import ResumePDF from '../../../src/JackDoranResume2022.pdf'
+import RutgersBootcampBadge from '../../images/rutgers-coding-bootcamp.png';
 
 export default function Resume() {
     return (
@@ -14,6 +15,14 @@ export default function Resume() {
                     Click here to download a PDF of my full resume.
                 </a>
             </p>
+            <h3>Education</h3>
+            <ul className="education">
+                <a href="https://www.credly.com/badges/c76bb091-ebc9-4956-8bc5-1c8bb9e383d4/linked_in_profile" target="_blank" rel="noreferrer">
+                    <img id="badge" src={RutgersBootcampBadge} alt="rutgers bootcamp badge"></img>
+                </a>
+                <li><a href="https://www.credly.com/badges/c76bb091-ebc9-4956-8bc5-1c8bb9e383d4/linked_in_profile" target="_blank" rel="noreferrer">Certificate in Full Stack Development</a> from Rutgers University</li>
+                <li>B.A. in Economics - Rutgers University (New Brunswick)</li>
+            </ul>
             <h3>Front End Proficiencies</h3>
             <ul className="resume">
                 <li>JavaScript</li>

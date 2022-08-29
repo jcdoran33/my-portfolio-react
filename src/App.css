@@ -250,3 +250,14 @@ footer {
     opacity: 0;
    }
 }
+
+/* adjust size of badge image */
+#badge {
+  max-width: 100px;
+}
+
+#badge:hover {
+  box-shadow: 2px 3px 2px 2px lightblue !important;
+  /* ^ x-axis, y-axis, blur-radius, spread-radius, color */
+  border: solid black 1px;
+}
