@@ -7,14 +7,14 @@ export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
-            <p>
+            {/* <p>
                 This is a miniature, web version of my resume highlighting coding-specific proficiences. You can click the download link below to download a more expansive PDF copy.
             </p>
             <p>
                 <a href={ResumePDF} download>
                     Click here to download a PDF of my full resume.
                 </a>
-            </p>
+            </p> */}
             <h3>Education</h3>
             <ul className="education">
                 <a href="https://www.credly.com/badges/c76bb091-ebc9-4956-8bc5-1c8bb9e383d4/linked_in_profile" target="_blank" rel="noreferrer">
